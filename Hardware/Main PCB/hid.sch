@@ -2692,7 +2692,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="PB1" library="wirepad" deviceset="SMD2" device="">
 <attribute name="PARTNO" value="Breakout"/>
 </part>
-<part name="PB6" library="wirepad" deviceset="SMD2" device="">
+<part name="PB0" library="wirepad" deviceset="SMD2" device="">
 <attribute name="PARTNO" value="Breakout"/>
 </part>
 <part name="PD7" library="wirepad" deviceset="SMD2" device="">
@@ -2855,7 +2855,7 @@ CC BY 4.0</text>
 <attribute name="VALUE" x="181.483" y="122.682" size="1.778" layer="96" rot="R180"/>
 <attribute name="PARTNO" x="180.34" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PB6" gate="1" x="180.34" y="121.92" smashed="yes" rot="R180">
+<instance part="PB0" gate="1" x="180.34" y="121.92" smashed="yes" rot="R180">
 <attribute name="NAME" x="189.103" y="122.6058" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="181.483" y="125.222" size="1.778" layer="96" rot="R180"/>
 <attribute name="PARTNO" x="180.34" y="121.92" size="1.778" layer="96" display="off"/>
@@ -3220,7 +3220,7 @@ CC BY 4.0</text>
 <net name="PB0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB0(ICP)"/>
-<pinref part="PB6" gate="1" pin="P"/>
+<pinref part="PB0" gate="1" pin="P"/>
 <wire x1="152.4" y1="121.92" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
 <label x="170.18" y="121.92" size="1.778" layer="95"/>
 </segment>
