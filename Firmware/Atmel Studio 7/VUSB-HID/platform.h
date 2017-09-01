@@ -35,7 +35,7 @@
 #define USB_CFG_SIZE	    43
 
 #define USB_VENDOR_ID     0xc0, 0x16
-#define USB_VENDOR_NAME   'K','.','C','.',' ','L','e','e'
+#define USB_VENDOR_NAME   'J','B','B',' ','H','a','c','k'
 #define USB_VENDOR_LEN    8
 
 #define USB_DEVICE_ID     0xcd, 0x05
