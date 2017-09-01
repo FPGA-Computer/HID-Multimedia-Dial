@@ -511,13 +511,13 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x1411
+.debug_info     0x00000000     0x1406
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x48c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega8a/avr4/crtatmega8a.o
  .debug_info    0x0000048c      0x342 hardware.o
  .debug_info    0x000007ce      0x2a9 main.o
  .debug_info    0x00000a77      0x91a usbdrv/usbdrv.o
- .debug_info    0x00001391       0x80 usbdrv/usbdrvasm.o
+ .debug_info    0x00001391       0x75 usbdrv/usbdrvasm.o
 
 .debug_abbrev   0x00000000      0xa5e
  *(.debug_abbrev)
@@ -541,15 +541,15 @@ END GROUP
  .debug_frame   0x00000078       0x34 main.o
  .debug_frame   0x000000ac       0x58 usbdrv/usbdrv.o
 
-.debug_str      0x00000000      0x84a
+.debug_str      0x00000000      0x83f
  *(.debug_str)
  .debug_str     0x00000000      0x17a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega8a/avr4/crtatmega8a.o
- .debug_str     0x0000017a      0x34c hardware.o
-                                0x387 (size before relaxing)
- .debug_str     0x000004c6       0xf7 main.o
-                                0x29b (size before relaxing)
- .debug_str     0x000005bd      0x28d usbdrv/usbdrv.o
-                                0x4d4 (size before relaxing)
+ .debug_str     0x0000017a      0x341 hardware.o
+                                0x37c (size before relaxing)
+ .debug_str     0x000004bb       0xf7 main.o
+                                0x290 (size before relaxing)
+ .debug_str     0x000005b2      0x28d usbdrv/usbdrv.o
+                                0x4c9 (size before relaxing)
 
 .debug_loc      0x00000000      0xc1f
  *(.debug_loc)

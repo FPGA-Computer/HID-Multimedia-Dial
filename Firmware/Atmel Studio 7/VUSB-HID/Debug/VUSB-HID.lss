@@ -15,19 +15,19 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
   5 .debug_aranges 000000b8  00000000  00000000  00000a00  2**3
                   CONTENTS, READONLY, DEBUGGING
-  6 .debug_info   00001411  00000000  00000000  00000ab8  2**0
+  6 .debug_info   00001406  00000000  00000000  00000ab8  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_abbrev 00000a5e  00000000  00000000  00001ec9  2**0
+  7 .debug_abbrev 00000a5e  00000000  00000000  00001ebe  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_line   0000107e  00000000  00000000  00002927  2**0
+  8 .debug_line   0000107e  00000000  00000000  0000291c  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_frame  00000104  00000000  00000000  000039a8  2**2
+  9 .debug_frame  00000104  00000000  00000000  0000399c  2**2
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_str    0000084a  00000000  00000000  00003aac  2**0
+ 10 .debug_str    0000083f  00000000  00000000  00003aa0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_loc    00000c1f  00000000  00000000  000042f6  2**0
+ 11 .debug_loc    00000c1f  00000000  00000000  000042df  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_ranges 00000118  00000000  00000000  00004f15  2**0
+ 12 .debug_ranges 00000118  00000000  00000000  00004efe  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -96,8 +96,8 @@ Disassembly of section .text:
   af:	44 00 69 00 61 00 6c 00                             D.i.a.l.
 
 000000b7 <usbDescriptorStringVendor>:
-  b7:	12 03 4b 00 2e 00 43 00 2e 00 20 00 4c 00 65 00     ..K...C... .L.e.
-  c7:	65 00                                               e.
+  b7:	12 03 4a 00 42 00 42 00 20 00 48 00 61 00 63 00     ..J.B.B. .H.a.c.
+  c7:	6b 00                                               k.
 
 000000c9 <usbDescriptorString0>:
   c9:	04 03 09 04 00                                      .....
@@ -1415,8 +1415,8 @@ void Init_HW(void)
  604:	08 95       	ret
 
 00000606 <main>:
+
 #include "hardware.h"
-#include "main.h"
 
 int main(void)
 { 
