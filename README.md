@@ -2,7 +2,7 @@ HID Multimedia Dial
 
 This is a USB HID with a rotatory encoder. This is used to supplement old keyboard layouts by providing a more natural alternative.
 
-Details: https://hackaday.io/project/20431-hid-multimedia-dial
+Details: https://hw-by-design.blogspot.com/2018/07/hid-multimedia-dial.html
 
 USBasp Bootloader/  - bootloader used in this project configured for Atmel Studio 7.0
 
